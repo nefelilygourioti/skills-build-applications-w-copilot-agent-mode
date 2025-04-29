@@ -1,0 +1,136 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f6f8fa; /* Light gray background */
+  color: #24292e; /* Dark text */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #0366d6; /* GitHub blue */
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #79b8ff; /* Lighter blue */
+  text-decoration: underline;
+}
+
+/* Component styles */
+h1 {
+  color: #0366d6; /* GitHub blue */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Table styles */
+table {
+  width: 90%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White table background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  border: 1px solid #e1e4e8; /* Light gray border */
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+}
+
+table th {
+  background-color: #f6f8fa; /* Light gray header */
+  color: #24292e; /* Dark text */
+  font-size: 1.2rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #f6f8fa; /* Light gray row */
+}
+
+table tr:hover {
+  background-color: #e1e4e8; /* Highlight row */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  color: #24292e; /* Dark text */
+  background-color: #ffffff; /* White background */
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+}
+
+/* Text styles */
+.component-text {
+  color: #0366d6; /* GitHub blue */
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Button styles */
+button {
+  background-color: #0366d6; /* GitHub blue */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #79b8ff; /* Lighter blue */
+}
+
+/* Add background header styles */
+.header {
+  background-image: url('https://support-assets.githubassets.com/packs/static/components/v2/components/assets/images/support-portal-hero-c081366e7ef772f74358.webp');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* White text */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  font-weight: bold;
+}
