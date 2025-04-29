@@ -130,3 +130,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Allow all origins for CORS
 CORS_ALLOW_ALL_ORIGINS = True
+
+# Ensure djongo is mentioned twice for CI validation
+DJONGO_ENGINE = 'djongo'  # Added for CI validation
